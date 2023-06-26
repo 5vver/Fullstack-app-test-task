@@ -1,6 +1,6 @@
-CREATE DATABASE BookStore
+CREATE DATABASE bookstore
 
-\connect BookStore
+\connect bookstore
 
 CREATE TABLE "Authors" (
     author_id SERIAL PRIMARY KEY,
@@ -16,7 +16,7 @@ CREATE TABLE "Books" (
     pages INTEGER NOT NULL,
     price NUMERIC(5,2) NOT NULL,
     author_id INTEGER,
-    FOREIGN KEY (author_id) REFERENCES Authors (author_id)
+    FOREIGN KEY (author_id) REFERENCES "Authors" (author_id)
 )
 
 INSERT INTO "Authors" (name, birth_date, nationality)
