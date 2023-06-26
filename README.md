@@ -2,7 +2,7 @@
 
 This project is a fullstack application built using Node.js, PostgreSQL, and React.js. The backend of the application is developed using Express.js to handle REST API requests and provide a well-structured API management system. Sequelize is used to interact with the PostgreSQL database and execute database operations.
 
-On the frontend, the application utilizes React.js along with the Vite package bundler. A free and open-source React Redux [![dashboard template]](https://github.com/codedthemes/mantis-free-react-admin-template) is chosen as the foundation for the user interface. The main feature implemented in the frontend is an infinite loading table with pagination using [![ag-grid]](https://www.ag-grid.com/) models.
+On the frontend, the application utilizes React.js along with the Vite package bundler. A free and open-source React Redux [dashboard template](https://github.com/codedthemes/mantis-free-react-admin-template) is chosen as the foundation for the user interface. The main feature implemented in the frontend is an infinite loading table with pagination using [ag-grid](https://www.ag-grid.com/) models.
 
 ### Main tasks
 
