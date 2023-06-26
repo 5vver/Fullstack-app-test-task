@@ -2,14 +2,14 @@ CREATE DATABASE BookStore
 
 \connect BookStore
 
-CREATE TABLE Authors (
+CREATE TABLE "Authors" (
     author_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     birth_date DATE NOT NULL,
     nationality VARCHAR(50)
 )
 
-CREATE TABLE Books (
+CREATE TABLE "Books" (
     book_id SERIAL PRIMARY KEY,
     title VARCHAR(100) NOT NULL,
     publication_date DATE NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE Books (
     FOREIGN KEY (author_id) REFERENCES Authors (author_id)
 )
 
-INSERT INTO Authors (name, birth_date, nationality)
+INSERT INTO "Authors" (name, birth_date, nationality)
 VALUES ('Author1', '1970-01-01', 'American'),
         ('Author2', '1980-02-02', 'British'),
         ('Author3', '1981-03-03', 'Australian'),
