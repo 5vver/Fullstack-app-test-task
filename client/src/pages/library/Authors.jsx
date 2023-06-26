@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Grid, Typography} from "@mui/material";
 import MainCard from "@components/MainCard.jsx";
 import AuthorsTable from "./tables/AuthorsTable.jsx";

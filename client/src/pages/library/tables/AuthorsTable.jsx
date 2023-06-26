@@ -1,9 +1,8 @@
-import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import React, {useCallback, useMemo, useState} from 'react';
 
 import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
 import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css';
-import {createColumnDefs} from "./utils/createColumnDefs.jsx"; // Optional theme CSS
 
 import {fetchAuthorsHandler} from "@src/http/authorsAPI.jsx";
 
