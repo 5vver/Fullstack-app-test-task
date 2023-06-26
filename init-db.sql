@@ -1,6 +1,6 @@
 CREATE DATABASE BookStore
 
-\connect BooksAuthorsDB
+\connect BookStore
 
 CREATE TABLE Authors (
     author_id SERIAL PRIMARY KEY,
