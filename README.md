@@ -11,6 +11,14 @@ On the frontend, the application utilizes React.js along with the Vite package b
 To implement partial data loading (pagination, infinite loading) use SQL language operators limit and offset. Write routers using REST API architecture style. Implement basic operations: creating, receiving, changing and deleting. Server part should include folders: models (/models), controllers (/controllers), routers (/routes).
 - The appearance is designed as a Dashboard with a side menu of several random items. Over the linked table place running buttons: Add a record, Change, Delete. When adding/modifying a record take into account connection with the main table in the foreign key field. Use infinite loading in the main table (use AgGrid Infinite Row Model). It is necessary to implement partial loading of records from the server (use SQL limit and offset language operators). When designing the Dashboard, use one of the modern open-sourse examples.
 
+
+#### Screenshots
+
+![screenshot1](https://user-images.githubusercontent.com/68349735/248788187-b15c67a3-a20c-481b-b5df-01a81f333146.png)
+![screenshot2](https://github.com/5vver/Fullstack-app-test-task/assets/68349735/11a24cfa-b085-4283-8e9c-8990db7e90f4)
+
+More [screenshots](https://github.com/5vver/Fullstack-app-test-task/wiki/Screenshots)
+
 #### Download
 
 - [Download from GitHub](https://github.com/5vver/Fullstack-app-test-task.git)
@@ -19,6 +27,7 @@ To implement partial data loading (pagination, infinite loading) use SQL languag
 
 ```
 git clone https://github.com/5vver/Fullstack-app-test-task.git
+run `init-db.sql` file to fill in database
 cd server
 change .env.example file into .env
 npm install
